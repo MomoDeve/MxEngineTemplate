@@ -62,6 +62,7 @@ namespace MxEngineTemplate
 
 int main()
 {
+	MxEngine::LaunchFromSourceDirectory();
     MxEngineTemplate::MxApplication app;
     app.Run();
     return 0;
