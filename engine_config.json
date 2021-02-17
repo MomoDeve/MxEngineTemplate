@@ -5,15 +5,20 @@
     "debug-graphics": true,
     "editor-key": "GRAVE_ACCENT",
     "editor-style": "MXENGINE",
-    "recompile-files-key": "F5"
+    "recompile-files-key": "F5",
+    "shader-source-directory": "./MxEngine/src/Platform/OpenGL/Shaders"
   },
   "filesystem": {
-    "root": "Resources",
-    "shader-source-directory": "../../src/Platform/OpenGL/Shaders"
+    "ignored-folders": [
+      "MxEngine",
+      "out",
+      "build",
+      ".git",
+      ".vs"
+    ]
   },
   "renderer": {
     "anisothropic-filtering": 16,
-    "debug-line-width": 3,
     "dir-light-texture-size": 2048,
     "engine-texture-size": 512,
     "major-version": 4,

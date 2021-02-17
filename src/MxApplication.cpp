@@ -23,7 +23,7 @@ namespace MxEngineTemplate
             // set camera to change ratio automatically depending on application window size
             controller->ListenWindowResizeEvent();
             // bind player movement to classic WASD mode and space/shift to fly, rotation is done with mouse
-            input->BindMovement(KeyCode::W, KeyCode::A, KeyCode::S, KeyCode::D, KeyCode::SPACE, KeyCode::LEFT_SHIFT);
+            input->BindMovementWASDSpaceShift();
             input->BindRotation();
             // set controller to be main application viewport
             Rendering::SetViewport(controller);
